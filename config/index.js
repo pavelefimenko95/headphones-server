@@ -3,7 +3,7 @@ module.exports = {
         username: 'postgres',
         password: 'postgres',
         database: 'online-store',
-        host: 'localhost',
+        host: '127.0.0.1',
         dialect: 'postgres'
     }
 };

@@ -1,12 +1,12 @@
 import * as productConstants from '../constants/product';
 
 module.exports = (sequelize, Sequelize) => {
-    return sequelize.define('product', {
+    let Product = sequelize.define('product', {
         type: {
             type: Sequelize.ENUM(
                 productConstants.MOUSE,
                 productConstants.KEYBOARD,
-                productConstants.MOUSE_PAD
+                productConstants.HEADPHONES
             ),
             notEmpty: true,
             allowNull: false
@@ -16,7 +16,15 @@ module.exports = (sequelize, Sequelize) => {
             notEmpty: true,
             allowNull: false
         },
+        landingImage: {
+            type: Sequelize.STRING
+        },
         name: {
+            type: Sequelize.STRING,
+            notEmpty: true,
+            allowNull: false
+        },
+        description: {
             type: Sequelize.STRING,
             notEmpty: true,
             allowNull: false
@@ -25,6 +33,15 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.INTEGER,
             notEmpty: true,
             allowNull: false
+        },
+        specs: {
+            type: Sequelize.ARRAY(Sequelize.STRING)
         }
     });
+
+    Product.associate = models => {
+        Product.hasMany(models.gallery, { foreignKey: { allowNull: false }, onDelete: 'CASCADE' });
+    };
+
+    return Product;
 };

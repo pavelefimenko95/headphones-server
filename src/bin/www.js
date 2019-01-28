@@ -7,10 +7,12 @@ require('babel-polyfill');
 
 let sequelize = require('../models/index').sequelize;
 let app = require('../app');
+let createDataFromMocks = require('../services/defaultService').createDataFromMocks;
 
-sequelize.sync().then(() => {
+sequelize.sync({force: true}).then(() => {
     app.listen(7000, () => {
 
+        createDataFromMocks();
         console.log('app is listening on port 7000');
     });
 });

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/pavelefimenko95/headphones-server#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "http-errors": "^1.7.1",

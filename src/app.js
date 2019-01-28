@@ -1,8 +1,11 @@
 import express from 'express';
 import indexRouter from './routes';
 import createError from 'http-errors';
+import cors from 'cors';
 
 let app = express();
+
+app.use(cors({origin: '*'}));
 
 app.use('/content/images/', express.static(__dirname + "/public/images"));
 
