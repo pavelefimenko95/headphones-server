@@ -1,4 +1,5 @@
 import express from 'express';
+import bodyParser from 'body-parser'
 import indexRouter from './routes';
 import createError from 'http-errors';
 import cors from 'cors';
@@ -8,6 +9,8 @@ let app = express();
 app.use(cors({origin: '*'}));
 
 app.use('/content/images/', express.static(__dirname + "/public/images"));
+
+app.use(bodyParser());
 
 app.use('/', indexRouter);
 
