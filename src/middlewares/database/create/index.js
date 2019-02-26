@@ -1,5 +1,10 @@
 import uuid from 'uuid';
-import { product as Product, cartInfo as CartInfo, soldProduct as SoldProduct, sequelize } from '../../../models';
+import {
+    product as Product,
+    cartInfo as CartInfo,
+    soldProduct as SoldProduct,
+    order as Order,
+    sequelize } from '../../../models';
 
 let Op = sequelize.Op;
 
@@ -30,17 +35,32 @@ export const createCartInfo = async (req, res, next) => {
             }
         });
 
-        let extendedCartProducts = cartProductsList.map(cartProduct => ({
-            cartInfoId: cartInfo.id,
-            quantity: cartProduct.quantity,
-            ...products.find(product => product.id === cartProduct.id).dataValues
-        }));
+        let extendedCartProducts = cartProductsList.map(cartProduct => {
+            let product = products.find(product => product.id === cartProduct.id).dataValues;
+            delete product.id;
+
+            return {
+                cartInfoId: cartInfo.id,
+                quantity: cartProduct.quantity,
+                ...product
+            };
+        });
 
         await SoldProduct.bulkCreate(extendedCartProducts);
 
         res.send({
             cartInfoId: cartInfo.id
         });
+    } catch(e) {
+        next(e);
+    }
+};
+
+export const createOrder = async (req, res, next) => {
+    try {
+        await Order.create(req.body);
+
+        res.sendStatus(200);
     } catch(e) {
         next(e);
     }

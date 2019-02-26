@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b78c02ec-4aea-4fee-94d8-44bb98e5f500" name="Default Changelist" comment="added products crud">
-      <change afterPath="$PROJECT_DIR$/src/models/cartInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/soldProduct.js" afterDir="false" />
+    <list default="true" id="b78c02ec-4aea-4fee-94d8-44bb98e5f500" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/middlewares/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/utils/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/middlewares/database/create/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/middlewares/database/create/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middlewares/database/load/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/middlewares/database/load/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/database/create/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/database/create/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/database/load/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/database/load/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,10 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/database/create/index.js">
+        <entry file="file://$PROJECT_DIR$/src/routes/database/load/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="153">
+              <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -33,22 +35,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/middlewares/database/create/index.js">
+        <entry file="file://$PROJECT_DIR$/src/middlewares/database/load/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="217">
+              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/models/cartInfo.js">
+        <entry file="file://$PROJECT_DIR$/src/middlewares/utils/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="170">
+              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -71,6 +70,7 @@
       <find>cartInfo</find>
       <find>cartDetails</find>
       <find>CartDetails</find>
+      <find>district</find>
     </findStrings>
     <replaceStrings>
       <replace>load</replace>
@@ -84,6 +84,7 @@
     <dirStrings>
       <dir>E:\Projects\Headphones.ua\headphones-server\src\public\images\mouse</dir>
       <dir>E:\Projects\Headphones.ua\headphones-server</dir>
+      <dir>E:\Projects\Headphones.ua\headphones-server\src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -97,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/routes/index.js" />
         <option value="$PROJECT_DIR$/src/routes/database/index.js" />
         <option value="$PROJECT_DIR$/src/routes/database/delete/index.js" />
         <option value="$PROJECT_DIR$/src/routes/database/update/index.js" />
@@ -107,19 +107,22 @@
         <option value="$PROJECT_DIR$/src/services/defaultService.js" />
         <option value="$PROJECT_DIR$/src/bin/www.js" />
         <option value="$PROJECT_DIR$/src/models/gallery.js" />
-        <option value="$PROJECT_DIR$/src/routes/database/load/index.js" />
-        <option value="$PROJECT_DIR$/src/middlewares/database/load/index.js" />
         <option value="$PROJECT_DIR$/src/models/product.js" />
         <option value="$PROJECT_DIR$/config/galleryMock.js" />
         <option value="$PROJECT_DIR$/config/index.js" />
         <option value="$PROJECT_DIR$/config/productsMock.js" />
         <option value="$PROJECT_DIR$/src/models/orderDetails.js" />
-        <option value="$PROJECT_DIR$/src/models/order.js" />
         <option value="$PROJECT_DIR$/src/models/soldProduct.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
-        <option value="$PROJECT_DIR$/src/routes/database/create/index.js" />
         <option value="$PROJECT_DIR$/src/models/cartDetails.js" />
+        <option value="$PROJECT_DIR$/src/routes/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/utils/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/database/create/index.js" />
         <option value="$PROJECT_DIR$/src/middlewares/database/create/index.js" />
+        <option value="$PROJECT_DIR$/src/models/order.js" />
+        <option value="$PROJECT_DIR$/src/routes/database/load/index.js" />
+        <option value="$PROJECT_DIR$/src/middlewares/database/load/index.js" />
+        <option value="$PROJECT_DIR$/src/middlewares/utils/index.js" />
       </list>
     </option>
   </component>
@@ -134,7 +137,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,7 +153,29 @@
               <item name="headphones-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="headphones-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="middlewares" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headphones-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="headphones-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="middlewares" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headphones-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="headphones-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="middlewares" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="load" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headphones-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="headphones-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="middlewares" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="headphones-server" type="b2602c69:ProjectViewProjectNode" />
@@ -172,18 +196,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="create" type="462c0819:PsiDirectoryNode" />
+              <item name="load" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549292143083" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550913156405" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../headphones-ui" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -233,7 +258,9 @@
       <workItem from="1548506797321" duration="1712000" />
       <workItem from="1548576075037" duration="1250000" />
       <workItem from="1548664966764" duration="6308000" />
-      <workItem from="1549271427372" duration="9039000" />
+      <workItem from="1549271427372" duration="14073000" />
+      <workItem from="1550399418914" duration="9554000" />
+      <workItem from="1551078435694" duration="9472000" />
     </task>
     <task id="LOCAL-00001" summary="added products crud">
       <created>1546798698112</created>
@@ -249,17 +276,24 @@
       <option name="project" value="LOCAL" />
       <updated>1548706830093</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added shopping cart logic">
+      <created>1549292191194</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549292191194</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52554000" />
+    <option name="totallyTimeSpent" value="76614000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21785174" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -327,21 +361,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added products crud" />
     <MESSAGE value="WIP: products crud" />
-    <option name="LAST_COMMIT_MESSAGE" value="WIP: products crud" />
+    <MESSAGE value="added shopping cart logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="added shopping cart logic" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/models/pr.js" />
     <entry file="file://$PROJECT_DIR$/src/models/f.js" />
-    <entry file="file://$PROJECT_DIR$/src/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/database/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -418,20 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/database/load/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="77" selection-start-line="1" selection-start-column="77" selection-end-line="1" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/middlewares/database/load/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/gallery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -469,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -493,37 +497,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/soldProduct.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="206">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/database/create/index.js">
+    <entry file="file://$PROJECT_DIR$/src/routes/utils/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="51">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/middlewares/database/create/index.js">
+    <entry file="file://$PROJECT_DIR$/src/models/soldProduct.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/database/create/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="94" selection-start-line="1" selection-start-column="94" selection-end-line="1" selection-end-column="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/cartInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="51">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middlewares/database/create/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/database/load/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middlewares/database/load/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middlewares/utils/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>

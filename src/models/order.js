@@ -1,5 +1,11 @@
 export default (sequelize, Sequelize) => {
     let Order = sequelize.define('order', {
+        id: {
+            type: Sequelize.INTEGER,
+            primaryKey: true,
+            allowNull: false,
+            notEmpty: true
+        },
         name: {
             type: Sequelize.STRING,
             allowNull: false,
@@ -10,8 +16,13 @@ export default (sequelize, Sequelize) => {
             allowNull: false,
             notEmpty: true
         },
+        postOffice: {
+            type: Sequelize.STRING,
+            allowNull: false,
+            notEmpty: true
+        },
         phone: {
-            type: Sequelize.INTEGER,
+            type: Sequelize.STRING,
             allowNull: false,
             notEmpty: true
         },
