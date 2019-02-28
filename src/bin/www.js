@@ -9,7 +9,7 @@ let sequelize = require('../models/index').sequelize;
 let app = require('../app');
 let createDataFromMocks = require('../services/defaultService').createDataFromMocks;
 
-sequelize.sync({force: true}).then(() => {
+sequelize.sync().then(() => {
     app.listen(7000, () => {
 
         createDataFromMocks();

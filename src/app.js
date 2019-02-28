@@ -3,14 +3,19 @@ import bodyParser from 'body-parser'
 import indexRouter from './routes';
 import createError from 'http-errors';
 import cors from 'cors';
+import { allRequests } from './middlewares/allRequests';
 
 let app = express();
+
+app.set('trust proxy', true);
 
 app.use(cors({origin: '*'}));
 
 app.use('/content/images/', express.static(__dirname + "/public/images"));
 
 app.use(bodyParser());
+
+app.use(allRequests);
 
 app.use('/', indexRouter);
 
