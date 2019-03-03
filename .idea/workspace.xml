@@ -2,7 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b78c02ec-4aea-4fee-94d8-44bb98e5f500" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/A50/view-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/A50/view-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/A50/view-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/A60/view-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/A60/view-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/A60/view-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/R50/view-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/R50/view-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/R50/view-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/R70/view-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/R70/view-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/R70/view-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX50/view-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX50/view-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX50/view-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX60/view-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX60/view-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX60/view-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX70/view-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX70/view-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX70/view-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/V70/view-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/V70/view-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/V70/view-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/A50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/R50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/R70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/RX50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/RX60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/RX70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/V70.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/galleryMock.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/galleryMock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/productsMock.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/productsMock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/gallery/A70/view-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/gallery/A70/view-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/gallery/A70/view-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/A60.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/A60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/A70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/AL90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/N50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/R30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/RT70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/alloyseed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/iMice.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/defaultService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/defaultService.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -15,52 +59,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/info/index.js">
+        <entry file="file://$PROJECT_DIR$/config/productsMock.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="176" column="6" selection-start-line="176" selection-start-column="6" selection-end-line="176" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/middlewares/info/index.js">
+        <entry file="file://$PROJECT_DIR$/config/galleryMock.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bin/www.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="68" lean-forward="true" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+            <state relative-caret-position="166">
+              <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/services/defaultService.js">
+        <entry file="file://$PROJECT_DIR$/src/bin/www.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#67#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="217">
+              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -119,8 +139,6 @@
         <option value="$PROJECT_DIR$/src/constants/product.js" />
         <option value="$PROJECT_DIR$/src/models/gallery.js" />
         <option value="$PROJECT_DIR$/src/models/product.js" />
-        <option value="$PROJECT_DIR$/config/galleryMock.js" />
-        <option value="$PROJECT_DIR$/config/productsMock.js" />
         <option value="$PROJECT_DIR$/src/models/orderDetails.js" />
         <option value="$PROJECT_DIR$/src/models/soldProduct.js" />
         <option value="$PROJECT_DIR$/src/models/cartDetails.js" />
@@ -139,13 +157,15 @@
         <option value="$PROJECT_DIR$/src/routes/info/index.js" />
         <option value="$PROJECT_DIR$/src/middlewares/info/index.js" />
         <option value="$PROJECT_DIR$/config/index.js" />
-        <option value="$PROJECT_DIR$/src/bin/www.js" />
         <option value="$PROJECT_DIR$/src/services/defaultService.js" />
+        <option value="$PROJECT_DIR$/config/productsMock.js" />
+        <option value="$PROJECT_DIR$/config/galleryMock.js" />
+        <option value="$PROJECT_DIR$/src/bin/www.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -154,6 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,18 +196,6 @@
               <item name="headphones-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="headphones-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="headphones-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="headphones-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="middlewares" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="headphones-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="headphones-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -195,14 +204,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="headphones-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="headphones-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="keyboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="headphones-server" type="b2602c69:ProjectViewProjectNode" />
@@ -220,25 +221,6 @@
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="mouse" type="462c0819:PsiDirectoryNode" />
               <item name="gallery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="headphones-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="headphones-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="mouse" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
-              <item name="A70" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="headphones-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="headphones-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="mouse" type="462c0819:PsiDirectoryNode" />
-              <item name="landings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="headphones-server" type="b2602c69:ProjectViewProjectNode" />
@@ -253,20 +235,19 @@
               <item name="headphones-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="headphones-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551522165138" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551607876798" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../headphones-ui" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -280,6 +261,13 @@
       <recent name="E:\Projects\Headphones.ua\headphones-server\src\public\images\mouse\previews" />
       <recent name="E:\Projects\Headphones.ua\headphones-server\src\public\images\keyboard\previews" />
       <recent name="E:\Projects\Headphones.ua\headphones-server\src\public\images\headphones\previews" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\Headphones.ua\headphones-server\src\public\images\mouse\gallery\V70" />
+      <recent name="E:\Projects\Headphones.ua\headphones-server\src\public\images\mouse\previews" />
+      <recent name="E:\Projects\Headphones.ua\headphones-server\src\public\images\mouse\gallery\A60" />
+      <recent name="E:\Projects\Headphones.ua\headphones-server\src\public\images\mouse\gallery\A50" />
+      <recent name="E:\Projects\Headphones.ua\headphones-server\src\public\images\mouse\gallery\R70" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -320,7 +308,8 @@
       <workItem from="1550399418914" duration="9554000" />
       <workItem from="1551078435694" duration="10104000" />
       <workItem from="1551259447704" duration="9217000" />
-      <workItem from="1551455132745" duration="2271000" />
+      <workItem from="1551455132745" duration="10176000" />
+      <workItem from="1551600294222" duration="7004000" />
     </task>
     <task id="LOCAL-00001" summary="added products crud">
       <created>1546798698112</created>
@@ -364,17 +353,24 @@
       <option name="project" value="LOCAL" />
       <updated>1551472742055</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixed initial mock data generation">
+      <created>1551522210980</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551522210980</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88734000" />
+    <option name="totallyTimeSpent" value="103643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22995462" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23373677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,7 +380,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -446,7 +442,8 @@
     <MESSAGE value="added orders logic" />
     <MESSAGE value="added db config env variables" />
     <MESSAGE value="added images to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="added images to git" />
+    <MESSAGE value="fixed initial mock data generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed initial mock data generation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/models/pr.js" />
@@ -525,20 +522,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/public/images/mouse/gallery/A70/view-1.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/productsMock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="96" column="50" lean-forward="true" selection-start-line="96" selection-start-column="50" selection-end-line="96" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/galleryMock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/product.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -684,20 +667,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/www.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="68" lean-forward="true" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/defaultService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="255">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="21" selection-end-column="43" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/productsMock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="176" column="6" selection-start-line="176" selection-start-column="6" selection-end-line="176" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/galleryMock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bin/www.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
         </state>
       </provider>
     </entry>
