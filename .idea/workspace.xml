@@ -1,53 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b78c02ec-4aea-4fee-94d8-44bb98e5f500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/A50/view-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/A50/view-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/A50/view-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/A60/view-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/A60/view-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/A60/view-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/R50/view-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/R50/view-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/R50/view-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/R70/view-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/R70/view-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/R70/view-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX50/view-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX50/view-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX50/view-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX60/view-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX60/view-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX60/view-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX70/view-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX70/view-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/RX70/view-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/V70/view-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/V70/view-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/gallery/V70/view-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/A50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/R50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/R70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/RX50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/RX60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/RX70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/V70.png" afterDir="false" />
+    <list default="true" id="b78c02ec-4aea-4fee-94d8-44bb98e5f500" name="Default Changelist" comment="changed products images and mocks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/galleryMock.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/galleryMock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/productsMock.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/productsMock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/gallery/A70/view-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/gallery/A70/view-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/gallery/A70/view-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/A60.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/images/mouse/previews/A60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/A70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/AL90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/N50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/R30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/RT70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/alloyseed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/images/mouse/previews/iMice.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/defaultService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/defaultService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/www.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/www.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bin/www.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="68">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -247,7 +203,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551607876798" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551609159191" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../headphones-ui" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -309,7 +265,7 @@
       <workItem from="1551078435694" duration="10104000" />
       <workItem from="1551259447704" duration="9217000" />
       <workItem from="1551455132745" duration="10176000" />
-      <workItem from="1551600294222" duration="7004000" />
+      <workItem from="1551600294222" duration="8281000" />
     </task>
     <task id="LOCAL-00001" summary="added products crud">
       <created>1546798698112</created>
@@ -360,11 +316,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551522210980</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changed products images and mocks">
+      <created>1551607909910</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551607909910</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103643000" />
+    <option name="totallyTimeSpent" value="104920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -443,7 +406,8 @@
     <MESSAGE value="added db config env variables" />
     <MESSAGE value="added images to git" />
     <MESSAGE value="fixed initial mock data generation" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed initial mock data generation" />
+    <MESSAGE value="changed products images and mocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed products images and mocks" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/models/pr.js" />
@@ -693,8 +657,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bin/www.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
