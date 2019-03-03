@@ -10,9 +10,9 @@ let app = require('../app');
 let createDataFromMocks = require('../services/defaultService').createDataFromMocks;
 
 sequelize.sync().then(() => {
-    app.listen(7000, () => {
+    app.listen(7500, () => {
 
         createDataFromMocks();
-        console.log('app is listening on port 7000');
+        console.log('app is listening on port 7500');
     });
 });
