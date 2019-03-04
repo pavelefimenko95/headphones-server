@@ -4,7 +4,7 @@ export default [
     {
         type: productConstants.MOUSE,
         image: '/content/images/mouse/previews/RX50.png',
-        landingImage: '/content/images/mouse/landings/A70.jpg',
+        landingImage: '/content/images/mouse/landings/RX50.jpg',
         name: 'RX50',
         description: 'игровая мышь',
         price: 200,
@@ -29,7 +29,7 @@ export default [
     {
         type: productConstants.MOUSE,
         image: '/content/images/mouse/previews/RX60.png',
-        landingImage: '/content/images/mouse/landings/A70.jpg',
+        landingImage: '/content/images/mouse/landings/RX60.jpg',
         name: 'RX60',
         description: 'игровая мышь',
         price: 250,
@@ -54,7 +54,7 @@ export default [
     {
         type: productConstants.MOUSE,
         image: '/content/images/mouse/previews/RX70.png',
-        landingImage: '/content/images/mouse/landings/A70.jpg',
+        landingImage: '/content/images/mouse/landings/RX70.jpg',
         name: 'RX70',
         description: 'игровая мышь',
         price: 300,
@@ -79,7 +79,7 @@ export default [
     {
         type: productConstants.MOUSE,
         image: '/content/images/mouse/previews/A50.png',
-        landingImage: '/content/images/mouse/landings/A70.jpg',
+        landingImage: '/content/images/mouse/landings/A50.jpg',
         name: 'A50',
         description: 'игровая мышь',
         price: 150,
@@ -104,7 +104,7 @@ export default [
     {
         type: productConstants.MOUSE,
         image: '/content/images/mouse/previews/A60.png',
-        landingImage: '/content/images/mouse/landings/A70.jpg',
+        landingImage: '/content/images/mouse/landings/A60.jpg',
         name: 'A60',
         description: 'беспроводная игровая мышь',
         price: 150,
@@ -128,7 +128,7 @@ export default [
     {
         type: productConstants.MOUSE,
         image: '/content/images/mouse/previews/R50.png',
-        landingImage: '/content/images/mouse/landings/A70.jpg',
+        landingImage: '/content/images/mouse/landings/R50.jpg',
         name: 'R50',
         description: 'игровая мышь',
         price: 150,
@@ -153,7 +153,7 @@ export default [
     {
         type: productConstants.MOUSE,
         image: '/content/images/mouse/previews/R70.png',
-        landingImage: '/content/images/mouse/landings/A70.jpg',
+        landingImage: '/content/images/mouse/landings/R70.jpg',
         name: 'R70',
         description: 'игровая мышь',
         price: 200,
@@ -178,7 +178,7 @@ export default [
     {
         type: productConstants.MOUSE,
         image: '/content/images/mouse/previews/V70.png',
-        landingImage: '/content/images/mouse/landings/A70.jpg',
+        landingImage: '/content/images/mouse/landings/V70.jpg',
         name: 'V70',
         description: 'беспроводная игровая мышь',
         price: 200,
